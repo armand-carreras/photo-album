@@ -1,0 +1,27 @@
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: teal;
+    font-size: 2rem;
+}
+.card{
+    margin-top: 60px;
+    width: max-content;
+    height: auto;
+    color: white;
+    background-color:rgb(54,54,54);
+    // transform:rotateZ(random(40)-20 + deg);
+    // -webkit-transform:rotateZ(random(40)-20 + deg);
+    // -moz-transform:rotateZ(random(40)-20 + deg);
+    // -ms-transform:rotateZ(random(40)-20 + deg);
+    // -o-transform:rotateZ(random(40)-20 + deg);
+}
+.footer{
+    width: auto;
+    height: 60px;
+}

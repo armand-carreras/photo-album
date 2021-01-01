@@ -1,0 +1,10 @@
+<mat-toolbar color = 'primary'>
+  <span>Photo Album</span>
+</mat-toolbar>
+
+<div class="container">
+  <mat-card class="card" *ngFor="let item of imgList; let i=index" [ngStyle]="{'transform': 'rotate('+angleList[i]+'deg)'}">
+    <mat-card-content class="content"><img src={{item.img}} alt=""></mat-card-content>
+    <mat-card-footer class="footer">{{item.descripcion}}</mat-card-footer>
+  </mat-card>
+</div>
